@@ -107,7 +107,7 @@ socket.on('player_disconnected', function (payload) {
   var dom_element = $('.socket_' + payload.socket_id);
 
   /* If something exists */
-  if (dom_element.length === 0) {
+  if (dom_element.length != 0) {
     dom_element.slideUp(1000);
   }
 
