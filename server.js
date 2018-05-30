@@ -668,7 +668,7 @@ function create_new_game(){
 	var new_game = {};
 	new_game.player_white = {};
 	new_game.player_black = {};
-	new_game.player_white.socket='';
+	new_game.player_white.socket= '';
 	new_game.player_white.username = '';
 	new_game.player_black.socket = '';
 	new_game.player_black.username = '';
